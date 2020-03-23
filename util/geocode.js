@@ -10,7 +10,6 @@ const geocode = (address, callback) => {
             latitude: res.body.features[0].center[1],
             location: res.body.features[0].place_name
         }) : null
-        
     })
 }
 
